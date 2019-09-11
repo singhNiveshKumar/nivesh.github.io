@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Wolverine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  .page-container {
+    position: relative;
+    padding-bottom: 48.41%;
+    height: 0;
+    overflow: hidden;
+  }
+  .page-container iframe{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="page-container">
+        <div class="iframe">
+          <iframe src="C:\Users\user\Desktop\first\nivesh.github.io\nivesh1.html"  width="1380" height="668"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="page-container">
+          <div class="iframe">
+            <iframe src="C:\Users\user\Desktop\first\nivesh.github.io\nivesh2.html" width="1380" height="668"></iframe>
+          </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="page-container">
+          <div class="iframe">
+            <iframe src="C:\Users\user\Desktop\first\nivesh.github.io\nivesh3.html" width="1380" height="668"></iframe>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</body>
+</html>
